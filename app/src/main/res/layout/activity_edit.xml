@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".edit">
+
+    <ImageButton
+        android:id="@+id/editBackBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:background="#F9F9F9"
+        app:layout_constraintBottom_toBottomOf="@+id/editHandleBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editHandleBtn"
+        app:srcCompat="@drawable/back" />
+
+    <Button
+        android:id="@+id/editHandleBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:text="确定"
+        app:layout_constraintBottom_toTopOf="@+id/add_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/add_content"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:background="@android:drawable/edit_text"
+        android:enabled="true"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:maxLines="10"
+        android:minLines="8"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editBackBtn"></EditText>
+</android.support.constraint.ConstraintLayout>

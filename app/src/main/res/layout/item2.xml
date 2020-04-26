@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:paddingBottom="2dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/pop_text5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="白色"
+        android:textAlignment="viewStart"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/pop_text6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="黑色"
+        android:textAlignment="viewStart"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/pop_text7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="蓝色"
+        android:textAlignment="viewStart"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/pop_text8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="黄色"
+        android:textAlignment="viewStart"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/pop_text9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="粉红色"
+        android:textAlignment="viewStart"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/pop_text10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="紫色"
+        android:textAlignment="viewStart"
+        android:textSize="24sp" />
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="login_title">美搭</string>
+    <string name="phone_hint">请输入手机号</string>
+    <string name="password_hint">请输入密码</string>
+    <string name="login_btn">登录</string>
+    <string name="register_btn">注册</string>
+    <string name="fast_hint">其他方式登录</string>
+    <string name="wx_hint">微信登录</string>
+    <string name="user_name">用户名</string>
+    <string name="info_hint">查看并编辑资料</string>
+    <string name="clothes_num">衣物</string>
+    <string name="edit_num">发帖</string>
+    <string name="price_num">价格</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="match_title">搭配日志</string>
+    <string name="wardrobe_title">我的衣橱</string>
+    <string name="clothes_kind">衣品</string>
+    <string name="clothes_color">颜色</string>
+    <string name="clothes_season">季节</string>
+    <string name="title_activity_clothes_edit">clothesEdit</string>
+    <string name="version">美搭1.0</string>
+</resources>

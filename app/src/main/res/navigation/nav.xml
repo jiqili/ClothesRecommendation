@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.baidu.speech.myapplication.HomeFragment"
+        android:label="首页"
+        tools:layout="@layout/home_fragment" />
+    <fragment
+        android:id="@+id/navigation_match"
+        android:name="com.baidu.speech.myapplication.MatchFragment"
+        android:label="搭配"
+        tools:layout="@layout/match_fragment" />
+    <fragment
+        android:id="@+id/navigation_user"
+        android:name="com.baidu.speech.myapplication.UserFragment"
+        android:label="我"
+        tools:layout="@layout/user_fragment" />
+    <fragment
+        android:id="@+id/navigation_wardrobe"
+        android:name="com.baidu.speech.myapplication.WardrobeFragment"
+        android:label="衣橱"
+        tools:layout="@layout/wardrobe_fragment" />
+</navigation>

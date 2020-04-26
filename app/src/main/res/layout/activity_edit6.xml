@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".edit6">
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="200dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/match_text2"
+        app:layout_constraintTop_toBottomOf="@+id/spinner2"></Spinner>
+
+    <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="200dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/match_text2"
+        app:layout_constraintTop_toBottomOf="@+id/spinner3"></Spinner>
+
+    <Spinner
+        android:id="@+id/spinner5"
+        android:layout_width="200dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/match_text5"
+        app:layout_constraintTop_toBottomOf="@+id/spinner4"></Spinner>
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="200dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="9dp"
+        app:layout_constraintStart_toEndOf="@+id/match_text2"
+        app:layout_constraintTop_toBottomOf="@+id/spinner1"></Spinner>
+
+    <ImageButton
+        android:id="@+id/editBackBtn6"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:background="#F9F9F9"
+        app:layout_constraintBottom_toBottomOf="@+id/editHandleBtn6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editHandleBtn6"
+        app:srcCompat="@drawable/back" />
+
+    <Button
+        android:id="@+id/editHandleBtn6"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:text="确定"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="200dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="@+id/guideline8"
+        app:layout_constraintTop_toBottomOf="@+id/view10"></Spinner>
+
+    <TextView
+        android:id="@+id/match_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="50dp"
+        android:text="体型 ："
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline8"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view10" />
+
+    <View
+        android:id="@+id/view10"
+        android:layout_width="0dp"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editBackBtn6" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.4" />
+
+    <TextView
+        android:id="@+id/match_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="肤色 ："
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline8"
+        app:layout_constraintTop_toBottomOf="@+id/match_text1" />
+
+    <TextView
+        android:id="@+id/match_text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="身高 ："
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline8"
+        app:layout_constraintTop_toBottomOf="@+id/match_text2" />
+
+    <TextView
+        android:id="@+id/match_text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="面部曲直 ："
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline8"
+        app:layout_constraintTop_toBottomOf="@+id/match_text3" />
+
+    <TextView
+        android:id="@+id/match_text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="面部量感 ："
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline8"
+        app:layout_constraintTop_toBottomOf="@+id/match_text4" />
+</android.support.constraint.ConstraintLayout>
